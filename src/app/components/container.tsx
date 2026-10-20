@@ -5,7 +5,7 @@ type containerProps = ViewProps & {
     className?: string
 }
 const Container = ({ className = "", children }: containerProps) => (
-    <SafeAreaView className="flex-1 bg-screenBackGround">
+    <SafeAreaView className="flex-1 bg-screenBackGround items-center w-full">
         {children}
     </SafeAreaView>
 )
