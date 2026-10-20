@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import Container from "./components/container";
 
 export default function Index() {
   return (
-    <View className="">
-      <Text className="text-3xl font-bold text-textGreen">Hello User!</Text>
-    </View>
+    <Container className="bg-screenBackGround">
+      <Text className="text-3xl text-textGreen">Hello User!</Text>
+    </Container>
   );
 }
