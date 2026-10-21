@@ -9,7 +9,8 @@ const colors = {
     buttonGreen: "#7BE586",
     buttonRed: "#E57B7B",
     borderGreen: "#4DC45A",
-    borderRed: "#C44D4D"
+    borderRed: "#C44D4D",
+    tabBarBorder: "#AAAAAA"
 } 
 
 module.exports = colors

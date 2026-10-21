@@ -5,7 +5,9 @@ export default function TabLayout() {
   return (
     <Tabs screenOptions={{
         tabBarStyle: {
-            backgroundColor: colors.lightgreen
+            backgroundColor: colors.lightgreen,
+            borderTopWidth: 1,
+            borderTopColor: colors.tabBarBorder,
         }
     }}>
       <Tabs.Screen name="home" options={{ title: 'Home' }} />
