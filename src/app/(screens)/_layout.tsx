@@ -4,6 +4,9 @@ import colors from '../../../constants/colors';
 export default function TabLayout() {
   return (
     <Tabs screenOptions={{
+        headerStyle: { backgroundColor: colors.screenBackGround },
+        headerShadowVisible: false,
+        headerTintColor: colors.textDarkGreen,
         tabBarStyle: {
             backgroundColor: colors.lightgreen,
             borderTopWidth: 1,
