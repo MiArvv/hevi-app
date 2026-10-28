@@ -3,7 +3,7 @@ import { ScrollView, Text, View } from "react-native";
 import Button from "./components/button";
 import Container from "./components/container";
 
-export default function Index() {
+const LoginScreen = () => {
   const router = useRouter();
   return (
     <Container>
@@ -21,3 +21,5 @@ export default function Index() {
     </Container>
   )
 }
+
+export default LoginScreen

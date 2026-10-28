@@ -1,7 +1,7 @@
 import { ScrollView, Text, View } from "react-native"
 import Container from "../components/container"
 
-export default function Index() {
+const HomeScreen = () => {
   return (
     <Container>
       <ScrollView className="flex-1" contentContainerClassName="items-center">
@@ -15,3 +15,5 @@ export default function Index() {
     </Container>
   )
 }
+
+export default HomeScreen
