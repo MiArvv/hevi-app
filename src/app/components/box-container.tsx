@@ -4,9 +4,10 @@ type BoxContainerProps = ViewProps & {
     className?: string
 }
 
-const BoxContainer = ({ className = "", children }: BoxContainerProps) => {
+const BoxContainer = ({ className = "", children, ...props }: BoxContainerProps) => {
     return (
-        <View className="border-2 border-borderGreen bg-lightgreen w-[80%] h-full rounded-xl">
+        <View className={`border-2 border-borderGreen bg-lightgreen rounded-xl ${className}`}
+        {...props}>
             {children}
         </View>
     )

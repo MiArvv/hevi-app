@@ -1,5 +1,6 @@
 import { useRouter } from "expo-router";
 import { ScrollView, Text, View } from "react-native";
+import BoxContainer from "./components/box-container";
 import Button from "./components/button";
 import Container from "./components/container";
 
@@ -8,9 +9,10 @@ const LoginScreen = () => {
   return (
     <Container>
       <ScrollView className="flex-1" contentContainerClassName="items-center">
-        <View className="items-center pb-12">
-          <Text className="text-5xl text-textGreen">Welcome to heVi!!</Text>
-        </View>
+        <BoxContainer className="w-[90%] my-16 px-10 py-6">
+          <Text className="text-3xl text-center text-textDarkGreen pb-6">Welcome to heVi!</Text>
+          <Text className="text-xl text-center text-textDarkGreen">App created to help people to eat more plants</Text>
+        </BoxContainer>
         <View className="w-[75%] items-center">
           <Button
           onPress={() => router.push("/(screens)/home")}>
