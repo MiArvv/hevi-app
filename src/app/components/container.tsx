@@ -1,10 +1,10 @@
 import { ViewProps } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
 
-type containerProps = ViewProps & {
+type ContainerProps = ViewProps & {
     className?: string
 }
-const Container = ({ className = "", children }: containerProps) => (
+const Container = ({ className = "", children }: ContainerProps) => (
     <SafeAreaView className="flex-1 bg-screenBackGround items-center w-full">
         {children}
     </SafeAreaView>
