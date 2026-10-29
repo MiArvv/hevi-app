@@ -14,7 +14,6 @@ const LoginScreen = () => {
           <Text className="text-xl text-center text-textDarkGreen">App created to help people to eat more plants</Text>
         </BoxContainer>
         <BoxContainer className="w-[90%] my-16 px-10 py-6 items-center">
-          
           <Button
           onPress={() => router.push("/(screens)/home")}
           buttonText="Login">
