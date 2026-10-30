@@ -3,6 +3,7 @@ import { ScrollView, Text } from "react-native";
 import BoxContainer from "./components/box-container";
 import Button from "./components/button";
 import Container from "./components/container";
+import LoginTextInput from "./components/login-text-input";
 
 const LoginScreen = () => {
   const router = useRouter();
@@ -14,6 +15,7 @@ const LoginScreen = () => {
           <Text className="text-xl text-center text-textDarkGreen">App created to help people to eat more plants</Text>
         </BoxContainer>
         <BoxContainer className="w-[90%] my-16 px-10 py-6 items-center">
+          <LoginTextInput/>
           <Button
           onPress={() => router.push("/(screens)/home")}
           buttonText="Login">
