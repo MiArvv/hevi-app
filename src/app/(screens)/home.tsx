@@ -6,7 +6,7 @@ import PlantPointsModal from "../components/plant-points-modal"
 const HomeScreen = () => {
   return (
     <Container>
-      <ScrollView className="flex-1" contentContainerClassName="items-center">
+      <ScrollView className="flex-1 pt-16" contentContainerClassName="items-center">
         <View className="items-center pb-12">
           <Text className="text-5xl text-textGreen">Hello User!</Text>
         </View>

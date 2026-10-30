@@ -6,10 +6,11 @@ export default function TabLayout() {
   return (
     <Tabs screenOptions={{
         headerShown: true,
-        headerStyle: { height: 100, backgroundColor: colors.screenBackGround },
+        headerStyle: { height: 100, },
         headerShadowVisible: false,
         headerTintColor: colors.textDarkGreen,
         headerTitle: "",
+        headerTransparent: true,
         headerLeft: () => (
           <Image
           source={require("@/assets/images/hevi-logo.png")}
